@@ -8,6 +8,8 @@
 // CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
 
+`include "config.sv"
+
 module generic_fifo
 #(
    parameter                       DATA_WIDTH = 32,
